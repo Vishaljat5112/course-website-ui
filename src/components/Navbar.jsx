@@ -1,6 +1,7 @@
 import { Phone } from "lucide-react";
 import logo from "../assets/logo.png";
 import phonecall from "../assets/phone-call.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -21,9 +22,15 @@ const Navbar = () => {
 
                 {/* CENTER: Menu */}
                 <ul className="hidden lg:flex gap-8 text-sm font-semibold tracking-wide">
-                    <li className="hover:text-blue-600 cursor-pointer">HOME</li>
-                    <li className="hover:text-blue-600 cursor-pointer">ABOUT US</li>
-                    <li className="hover:text-blue-600 cursor-pointer">COURSES</li>
+                    <li>
+                        <Link to="/" className="hover:text-blue-600 cursor-pointer">HOME </Link>
+                    </li>
+                    <li>
+                        <Link to="/about" className="hover:text-blue-600 cursor-pointer">ABOUT US </Link>
+                    </li>
+                   <li>
+                        <Link to="/Courses" className="hover:text-blue-600 cursor-pointer">COURSES </Link>
+                    </li>
                     <li className="hover:text-blue-600 cursor-pointer">ELEMENTS</li>
                     <li className="hover:text-blue-600 cursor-pointer">NEWS</li>
                     <li className="hover:text-blue-600 cursor-pointer">CONTACT</li>
@@ -31,8 +38,8 @@ const Navbar = () => {
 
                 {/* RIGHT: Phone Box */}
                 <div className="bg-yellow-400 text-white px-6 py-8 flex items-center gap-2 font-semibold">
-                    
-                     <img
+
+                    <img
                         src={phonecall}
                         alt="phonecall"
                         className="w-8 h-8 object-contain"
