@@ -1,8 +1,13 @@
 import CourseCard from "../components/CourseCard";
 import coursesData from "../data/coursesData";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
 
 const Courses = () => {
   return (
+    <>
+    <Navbar/>
     <div className="min-h-screen py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
 
@@ -18,6 +23,8 @@ const Courses = () => {
 
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

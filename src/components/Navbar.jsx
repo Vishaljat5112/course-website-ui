@@ -29,11 +29,18 @@ const Navbar = () => {
                         <Link to="/about" className="hover:text-blue-600 cursor-pointer">ABOUT US </Link>
                     </li>
                    <li>
-                        <Link to="/Courses" className="hover:text-blue-600 cursor-pointer">COURSES </Link>
+                        <Link to="/courses" className="hover:text-blue-600 cursor-pointer">COURSES </Link>
                     </li>
-                    <li className="hover:text-blue-600 cursor-pointer">ELEMENTS</li>
-                    <li className="hover:text-blue-600 cursor-pointer">NEWS</li>
-                    <li className="hover:text-blue-600 cursor-pointer">CONTACT</li>
+                    <li >
+                        <Link to="/elements" className="hover:text-blue-600 cursor-pointer">ELEMENTS</Link>
+                    </li>
+                    <li >
+                        <Link to="/news" className="hover:text-blue-600 cursor-pointer">NEWS</Link>
+                    </li>
+
+                    <li >
+                        <Link to="/contact" className="hover:text-blue-600 cursor-pointer">CONTACT US</Link>
+                    </li>
                 </ul>
 
                 {/* RIGHT: Phone Box */}
