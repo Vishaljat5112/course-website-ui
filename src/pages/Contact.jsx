@@ -8,10 +8,10 @@ const Contact = () => {
     return (
         <>
         <Navbar/>
-        <PageHeader title="Contact" subtitle="Any Query? please contact us..." bgImage={contactBg} />
+        <PageHeader title="Contact" subtitle="Any Query? please contact us..." bgImage={contactBg}  />
 
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <section className="py-16 bg-gray-50 border-4">
+        <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 ">
 
           {/* Left Info */}
           <div >
@@ -31,7 +31,7 @@ const Contact = () => {
 
           {/* Right Form */}
           <div className="bg-white shadow p-6">
-            <h3 className="text-xl font-bold mb-4"> Contact Form </h3>
+            <h3 className="text-xl font-bold mb-4 text-center"> Contact Form </h3>
 
                 <form className="space-y-3">
                     <input
@@ -52,7 +52,7 @@ const Contact = () => {
 
                     <button
                     type="button"
-                    className="bg-yellow-400 text-white px-6 py-3 font-semibold hover:bg-yellow-500"
+                    className="bg-yellow-400 text-white px-6 py-3 font-semibold hover:bg-yellow-500 w-full"
                     >SEND</button>
 
 

@@ -4,7 +4,7 @@ import heroBg from "../assets/slider_background.jpg";
 const Hero = () => {
   return (
     <section
-      className="relative min-h-screen bg-cover bg-center"
+      className="relative min-h-screen bg-cover bg-center h-screen"
        style={{
     backgroundImage: `url(${heroBg})`,
   }}
@@ -24,7 +24,7 @@ const Hero = () => {
       </div>
 
       {/* Bottom Cards */}
-      <div className="relative z-10 max-w-7xl mx-auto -mt-24 px-4 pb-10">
+      <div className="relative z-10 max-w-7xl mx-auto -mt-40 px-4 pb-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
           <FeatureCard title="Online Courses" />
           <FeatureCard title="Our Library" />
