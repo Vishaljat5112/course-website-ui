@@ -15,10 +15,10 @@ const Elements =() =>{
 
         <PageHeader
         title="Elements"
-        subtitle="...ELEMENTS..."
+        subtitle="Key learning elements designed for student success and growth."
         bgImage={elementsBg}
         />
-         <section className="py-16 border-4">
+         <section className="py-16 ">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-2xl font-bold mb-6 text-center">UI Elements</h2>
 

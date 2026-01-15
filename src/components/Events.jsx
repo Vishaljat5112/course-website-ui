@@ -12,7 +12,7 @@ const Events = () => {
       title: "Student Festival",
       location: "Grand Central Park",
       description:
-       " Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, assumenda?",
+       " Celebrate creativity, culture, fun events, and student talent.",
       image: event1, 
     },
     {
@@ -22,7 +22,7 @@ const Events = () => {
       title: "Open day in the University campus",
       location: "Grand Central Park",
       description:
-       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, modi.",
+       " Explore campus life, meet faculty, and discover programs.",
       image: event2,
     },
     {
@@ -32,7 +32,7 @@ const Events = () => {
       title: "Student Graduation Ceremony",
       location: "Grand Central Park",
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, inventore.",
+        "Honoring achievements, memories, and successful student graduation moments.",
       image: event3,
     },
   ];

@@ -16,42 +16,42 @@ const OurServices = () => {
       icon: BookOpen,
       title: "Online Courses",
       description:
-       " Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+       "Learn anytime, anywhere with flexible online course programs.",
     },
     {
       id: 2,
       icon: School,
       title: "Indoor Courses",
       description:
-        " Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        " Interactive indoor classes for better learning and real practice.",
     },
     {
       id: 3,
       icon: Library,
       title: "Amazing Library",
       description:
-        " Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        " A rich library filled with books and digital resources.",
     },
     {
       id: 4,
       icon: User,
       title: "Exceptional Professors",
       description:
-        " Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        " Learn from experienced professors dedicated to your success.",
     },
     {
       id: 5,
       icon: Award,
       title: "Top Programs",
       description:
-        " Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "Industry-focused programs designed to build strong careers.",
     },
     {
       id: 6,
       icon: GraduationCap,
       title: "Graduate Diploma",
       description:
-       " Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+       " Advanced diploma courses to boost skills and qualifications.",
     },
   ];
 

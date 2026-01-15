@@ -10,12 +10,12 @@ const Contact = () => {
         <Navbar/>
         <PageHeader title="Contact" subtitle="Any Query? please contact us..." bgImage={contactBg}  />
 
-      <section className="py-16 bg-gray-50 border-4">
+      <section className="py-16 bg-gray-50 ">
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 ">
 
           {/* Left Info */}
-          <div >
-            <h2 className="text-3xl font-bold mb-4">Get In Touch</h2>
+          <div className="px-3 py-5">
+            <h3 className="text-xl font-bold mb-4 flex justify-center items-center">Get In Touch</h3>
             <p className="text-gray-600 mb-6"> Feel free to Contact Us for any query related to courses or admissions.
             </p>
 

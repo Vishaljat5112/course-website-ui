@@ -1,12 +1,12 @@
 const CourseCard = ({ image, title, subtitle, author, price  }) => {
   return (
-    <div className="bg-white shadow-md overflow-hidden">
+    <div className="bg-white shadow-md overflow-hidden rounded-2xl">
       
       {/* Image */}
       <img
         src={image}
         alt={title}
-        className="w-full h-52 object-cover"
+        className="w-full h-52 object-cover "
       />
 
       {/* Content */}

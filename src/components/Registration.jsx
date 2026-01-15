@@ -15,7 +15,7 @@ const Registration = () => {
         </h3>
 
         <p className="text-sm leading-relaxed mb-8 max-w-md">
-         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam ipsa, quo asperiores omnis necessitatibus ipsam quaerat explicabo similique, magni tempore odit nostrum tenetur, cum laborum!
+         Register now and unlock an exclusive 50% discount on selected courses. This limited-time offer is valid until 1 January, so don’t miss your chance to learn from expert instructors at half the price. Start your journey today!
         </p>
 
         <button className="bg-black text-white px-6 py-3 w-fit font-semibold hover:bg-gray-800 mx-auto">

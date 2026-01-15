@@ -26,10 +26,7 @@ const Testimonials = () => {
 
        
         <p className="text-sm md:text-base leading-relaxed mb-10 text-gray-200">
-          In aliquam, augue a gravida rutrum, ante nisl fermentum nulla,
-          vitae tempor nisl ligula vel nunc. Proin quis mi malesuada,
-          finibus tortor fermentum. In aliquam, augue a gravida rutrum,
-          ante nisl fermentum nulla.
+          We love the learning experience, supportive teachers, and practical courses. Read real feedback from learners who improved their skills and achieved career success with us.
         </p>
 
         
