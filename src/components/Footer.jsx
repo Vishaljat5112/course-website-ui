@@ -1,3 +1,6 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
+
 import logo from "../assets/logo.png";
 import {
   MapPin,
@@ -14,7 +17,7 @@ const Footer = () => {
     <footer className="bg-[#111111] text-gray-400">
       
       {/* Newsletter */}
-      <div className="py-20 text-center border-b border-gray-700">
+      <div className="py-10 text-center border-b border-gray-700">
         <div className="w-12 h-1 bg-yellow-400 mx-auto mb-4"></div>
         <h2 className="text-2xl font-bold text-white mb-6">
           Subscribe to newsletter
@@ -61,11 +64,12 @@ const Footer = () => {
             Menu
           </h4>
           <ul className="space-y-2 text-lg">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Courses</li>
-            <li>News</li>
-            <li>Contact</li>
+             <li><Link to="/" className="hover:text-yellow-400">Home</Link></li>
+            <li><Link to="/about" className="hover:text-yellow-400">About Us</Link></li>
+          <li><Link to="/courses" className="hover:text-yellow-400">Courses</Link></li>
+          <li><Link to="/elements" className="hover:text-yellow-400">Elements</Link></li>
+          <li><Link to="/news" className="hover:text-yellow-400">News</Link></li>
+          <li><Link to="/contact" className="hover:text-yellow-400">Contact</Link></li>
           </ul>
         </div>
 

@@ -2,12 +2,20 @@ import CourseCard from "../components/CourseCard";
 import coursesData from "../data/coursesData";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import elementsBg from "../assets/elements-bg.jpg";
+import PageHeader from "../components/PageHeader";
+
 
 
 const Courses = () => {
   return (
     <>
     <Navbar/>
+     <PageHeader
+        title="Courses"
+        subtitle="Key learning courses designed for student success and growth."
+        bgImage={elementsBg}
+        />
     <div className="min-h-screen py-20 bg-gray-50 rounded-2xl">
       <div className="max-w-7xl mx-auto px-4 ">
 

@@ -7,8 +7,8 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-white border-b">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
+   <nav className="fixed top-0 left-0 w-full z-50 px-17 py-5">
+  <div className="max-w-7xl mx-auto mt-10 bg-white shadow-lg px-8 py-5 flex items-center justify-between">
         
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
@@ -18,12 +18,12 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden lg:flex gap-8 text-sm font-semibold tracking-wide">
-          <li><Link to="/" className="hover:text-blue-600">HOME</Link></li>
-          <li><Link to="/about" className="hover:text-blue-600">ABOUT US</Link></li>
-          <li><Link to="/courses" className="hover:text-blue-600">COURSES</Link></li>
-          <li><Link to="/elements" className="hover:text-blue-600">ELEMENTS</Link></li>
-          <li><Link to="/news" className="hover:text-blue-600">NEWS</Link></li>
-          <li><Link to="/contact" className="hover:text-blue-600">CONTACT</Link></li>
+          <li><Link to="/" className="hover:text-yellow-500">HOME</Link></li>
+          <li><Link to="/about" className="hover:text-yellow-500">ABOUT US</Link></li>
+          <li><Link to="/courses" className="hover:text-yellow-500">COURSES</Link></li>
+          <li><Link to="/elements" className="hover:text-yellow-500">ELEMENTS</Link></li>
+          <li><Link to="/news" className="hover:text-yellow-500">NEWS</Link></li>
+          <li><Link to="/contact" className="hover:text-yellow-500">CONTACT</Link></li>
         </ul>
 
         {/* Desktop Phone Box */}

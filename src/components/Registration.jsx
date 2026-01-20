@@ -6,15 +6,12 @@ const Registration = () => {
       
       {/* First part means left side portion */}
       <div className="bg-yellow-400 text-white flex flex-col justify-center px-10 py-16">
-        <h2 className="text-3xl font-bold mb-4">
-          Register now and get a discount
+        <h2 className="text-4xl font-bold mb-4 text-center px-10 py-3">
+          Register now and get a discount 50% discount until 1 January
         </h2>
 
-        <h3 className="text-4xl font-extrabold mb-6">
-          50% discount until 1 January
-        </h3>
+        <p className="text-sm leading-relaxed mb-8 max-w-md mx-auto text-center px-8 py-8">
 
-        <p className="text-sm leading-relaxed mb-8 max-w-md">
          Register now and unlock an exclusive 50% discount on selected courses. This limited-time offer is valid until 1 January, so don’t miss your chance to learn from expert instructors at half the price. Start your journey today!
         </p>
 

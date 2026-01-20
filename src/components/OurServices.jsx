@@ -16,42 +16,42 @@ const OurServices = () => {
       icon: BookOpen,
       title: "Online Courses",
       description:
-       "Learn anytime, anywhere with flexible online course programs.",
+       "In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum..",
     },
     {
       id: 2,
       icon: School,
       title: "Indoor Courses",
       description:
-        " Interactive indoor classes for better learning and real practice.",
+        " In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.",
     },
     {
       id: 3,
       icon: Library,
       title: "Amazing Library",
       description:
-        " A rich library filled with books and digital resources.",
+        " In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.",
     },
     {
       id: 4,
       icon: User,
       title: "Exceptional Professors",
       description:
-        " Learn from experienced professors dedicated to your success.",
+        " In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum..",
     },
     {
       id: 5,
       icon: Award,
       title: "Top Programs",
       description:
-        "Industry-focused programs designed to build strong careers.",
+        "In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.",
     },
     {
       id: 6,
       icon: GraduationCap,
       title: "Graduate Diploma",
       description:
-       " Advanced diploma courses to boost skills and qualifications.",
+       "In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.",
     },
   ];
 
